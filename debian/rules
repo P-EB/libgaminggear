@@ -31,6 +31,8 @@ override_dh_auto_clean:
 	dh_auto_clean
 	rm -f libgaminggear0-dev.install libgaminggear0.install
 
+override_dh_installchangelogs:
+	dh_installchangelogs Changelog
 
 # dh_make generated override targets
 # This is example for Cmake (See https://bugs.debian.org/641051 )
