@@ -1,0 +1,68 @@
+#ifndef __GAMINGGEAR_H__
+#define __GAMINGGEAR_H__
+
+/*
+ * This file is part of libgaminggear.
+ *
+ * libgaminggear is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * libgaminggear is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with libgaminggear. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/*! \file gaminggear/gaminggear.h
+ *  \brief Global definitions.
+ */
+
+#include <glib.h>
+
+G_BEGIN_DECLS
+
+/*! \brief Major version number of libgaminggear.
+ *  \since 1.0
+ */
+#define GAMINGEAR_MAJOR_VERSION ${V_MAJOR}
+
+
+/*! \brief Minor version number of libgaminggear.
+ *  \since 1.0
+ */
+#define GAMINGEAR_MINOR_VERSION ${V_MINOR}
+
+
+/*! \brief Micro version number of libgaminggear.
+ *  \since 1.0
+ */
+#define GAMINGEAR_MICRO_VERSION ${V_MICRO}
+
+
+/*! \brief Version number of libgaminggear in string form.
+ *  \since 1.0
+ */
+#define GAMINGGEAR_VERSION_STRING "${V_MAJOR}.${V_MINOR}.${V_MICRO}"
+
+/*! \brief Check version of libgaminggear.
+ *  \param major Major version to check for.
+ *  \param minor Minor version to check for.
+ *  \param micro Micro version to check for.
+ *  \retval boolean \c TRUE if existing version is same or newer than requested version.
+ *  \since 1.0
+ */
+#define GAMINGEAR_CHECK_VERSION(major,minor,micro) \
+	(GAMINGEAR_MAJOR_VERSION > (major) || \
+	(GAMINGEAR_MAJOR_VERSION == (major) && GAMINGEAR_MINOR_VERSION > (minor)) || \
+	(GAMINGEAR_MAJOR_VERSION == (major) && GAMINGEAR_MINOR_VERSION == (minor) && GAMINGEAR_MICRO_VERSION >= (micro)))
+
+void gaminggearwidget_init(void);
+
+G_END_DECLS
+
+#endif

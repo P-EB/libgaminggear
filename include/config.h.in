@@ -1,0 +1,30 @@
+#ifndef __CONFIG_H__
+#define __CONFIG_H__
+
+/*
+ * This file is part of libgaminggear.
+ *
+ * libgaminggear is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * libgaminggear is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with libgaminggear. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+#define GAMINGGEAR_ICON_PATH "${CMAKE_INSTALL_PREFIX}/share/libgaminggear/icons"
+#define UINPUT_DIR "${UINPUT_DIR}"
+#define UHID_DIR "${UHID_DIR}"
+#define GAMINGGEAR_FX_PLUGIN_DIR "${GFX_PLUGIN_DIR}"
+#cmakedefine SQLITE3_FOUND
+#cmakedefine HAVE_NOTIFY_0_7
+#define PROJECT_NAME "${CMAKE_PROJECT_NAME}"
+#define LOCALEDIR "${CMAKE_INSTALL_PREFIX}/share/locale"
+
+#endif

@@ -1,0 +1,15 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+includedir=${prefix}/include/gaminggear-@V_MAJOR@
+libdir=@INSTALL_LIBDIR@
+gfx_plugin_dir=@GFX_PLUGIN_DIR@
+
+Name: GamingGear
+Description: The GamingGear library
+URL: http://sourceforge.net/projects/libgaminggear
+Version: @V_MAJOR@.@V_MINOR@.@V_MICRO@
+Requires: glib-2.0
+Requires.private: gdk-2.0 gtk+-2.0 gobject-2.0 libcanberra libnotify @ADDITIONAL_REQUIREMENTS@
+Cflags: -I${includedir}
+Libs: -L${libdir} -lgaminggear -lgaminggearwidget
+Libs.private: -lm

@@ -1,0 +1,103 @@
+0.15.1 2017-06-09
+
+ * Fixed: Translations
+ * Fixed: File descriptor handling in GaminggearDevice
+
+0.15.0 2016-09-13
+
+ * Added: GaminggearProfileData, GaminggearProfileTable, GaminggearProfilePage, GaminggearProfiles
+
+0.14.0 2016-08-05
+
+ * Added: gaminggear_hid_to_button_name()
+ * Improved: List of HID usage ids
+
+0.13.0 2016-05-22
+
+ * Added: GaminggearHidComboBox
+ * Improved: List of HID usage ids
+ 
+0.12.0 2016-04-07
+
+ * Changed: thread related function definitions
+ * Fixed two possible segfaults
+
+0.11.2 2015-10-08
+
+ * Fixed compiler warnings
+ * Fixed translations
+ * Fixed pkg-config problem with missing sqlite3
+
+0.11.1 2015-08-23
+
+ * Fixed compilation problem
+
+0.11.0 2015-08-13
+
+ * Added: Import for Roccat Swarm macro files
+ * Fixed: Macroeditor clipboard pasting now handles \t,\n,\r
+ * Software implementation of shortcuts/macros now handle multiple events like
+   Roccats hardware implementation
+
+0.10.1 2015-06-28
+
+ * Fixed uinput/uhid inclusion problem
+
+0.10.0 2015-06-26
+
+ * Added uhid support for input event handling
+ * Fixed install paths for icons and api documentation
+
+0.9.0 2015-05-23
+
+ * Changed uinput handling
+ * Improved: library dependencies
+
+0.8.0 2015-04-18
+
+ * Added: Translation de
+ * Added: Support for translations
+ * Added: GaminggearRWLock
+ * Added: definitions for runtime dynamic loading 
+ * Improved: gfx supports threading
+ * Improved: gaminggearfxcontrol now has more options to control single lights
+ * Fixed: pkg-config file
+
+0.7.0 2015-03-10
+
+ * Added: Gfx
+ * Fixed: spec file
+
+0.6.0 2015-02-02
+
+ * Improved: detection of cmake-finder install directory
+ * Changed: configuration option to build documentation from WITHOUT_DOC to WITH_DOC
+ * Changed: libraries now installed in base folder, leaving ld.so search paths umodified
+ * Fixed: Missing direct dependencies
+ * Fixed: Gtk text != NULL assertions
+
+0.5.0 2014-09-08
+
+ * Improved: GaminggearDevice
+ * Fixed: Canberra notifications are failsafe now
+ 
+0.4.0 2014-07-04
+
+ * Added GaminggearAudioNotificator and GaminggearScreenNotificator
+
+0.3.0 2014-06-05
+
+ * Added WITHOUT_DOC build option
+ * Added GaminggearDevice
+ * Removed libusb dependency
+
+0.2.0 2014-05-18
+
+ * Added GaminggearXyScales
+ * Added gaminggearwidget_init()
+ * Added TimeoutBar and TimeoutDialog
+
+0.1.0 2014-04-13
+
+ * initial version
+ 

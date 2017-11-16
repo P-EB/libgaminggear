@@ -1,0 +1,876 @@
+# English translations for libgaminggear package.
+# Copyright (C) 2015 THE libgaminggear'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the libgaminggear package.
+# Stefan <erazor_de@users.sourceforge.net>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgaminggear 0.7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-09 19:09+0200\n"
+"PO-Revision-Date: 2015-04-09 16:36+0200\n"
+"Last-Translator: Stefan <erazor_de@users.sourceforge.net>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: libgaminggear/macros_converter_roccat_kone.c:283
+#: libgaminggear/macros_converter_roccat_arvo.c:217
+#: libgaminggear/macros_converter_roccat_valo.c:283
+#: libgaminggear/macros_converter_roccat.c:291
+#, c-format
+msgid "%1$s is no %2$s macro file"
+msgstr "%1$s is no %2$s macro file"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:86
+msgid "- control Gaminggear FX"
+msgstr "- control Gaminggear FX"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:65
+msgid "--all and --single need --color"
+msgstr "--all and --single need --color"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:60
+msgid "--all, --single and --reset are mutual exclusive"
+msgstr "--all, --single and --reset are mutual exclusive"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:75
+msgid "--color needs --color1"
+msgstr "--color needs --color1"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:70
+msgid "--single needs --device and --light"
+msgstr "--single needs --device and --light"
+
+#: libgaminggearwidget/gaminggear_macro_tree_view.c:467
+msgid "Add macro"
+msgstr "Add macro"
+
+#: libgaminggearwidget/gaminggear_macro_editor_macros_frame.c:103
+msgid "Add macroset"
+msgstr "Add macroset"
+
+#: libgaminggearwidget/gaminggear_macro_editor_advanced.c:39
+msgid "Advanced"
+msgstr "Advanced"
+
+#: libgaminggearwidget/gaminggear_macro_editor_advanced_list_store.c:617
+msgid ""
+"Advanced view does not support final waits. Please switch to another view to "
+"add it again if needed."
+msgstr ""
+"Advanced view does not support final waits. Please switch to another view to "
+"add it again if needed."
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:204
+msgid "All files"
+msgstr "All files"
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:176
+msgid "Application to edit gaminggear macros"
+msgstr "Application to edit gaminggear macros"
+
+#: libgaminggearwidget/gaminggear_macro_editor_record_options_frame.c:103
+msgid "As recorded"
+msgstr "As recorded"
+
+#: libgaminggearwidget/gaminggear_macro_editor_basic.c:39
+msgid "Basic"
+msgstr "Basic"
+
+#: libgaminggear/gaminggear_helper.c:37
+#, c-format
+msgid "Binary data has wrong length: %1$lu bytes instead of %2$lu"
+msgstr "Binary data has wrong length: %1$lu bytes instead of %2$lu"
+
+#: libgaminggearwidget/gaminggear_gdk_key_translations.c:67
+#, c-format
+msgid "Button %u"
+msgstr "Button %u"
+
+#: libgaminggearwidget/gaminggear_gdk_key_translations.c:57
+msgid "Button left"
+msgstr "Button left"
+
+#: libgaminggearwidget/gaminggear_gdk_key_translations.c:63
+msgid "Button middle"
+msgstr "Button middle"
+
+#: libgaminggearwidget/gaminggear_gdk_key_translations.c:60
+msgid "Button right"
+msgstr "Button right"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:43
+msgid "COLOR1"
+msgstr "COLOR1"
+
+#: libgaminggear/gaminggear_macro_thread.c:136
+#, c-format
+msgid "Cancelling macro %s/%s"
+msgstr "Cancelling macro %s/%s"
+
+#: libgaminggearwidget/gaminggear_macro_editor_key_sequence_frame.c:223
+msgid "Clear"
+msgstr "Clear"
+
+#: libgaminggearwidget/gaminggear_macro_editor_basic_tree_view.c:171
+msgid "Click"
+msgstr "Click"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:110
+msgid "Color: "
+msgstr "Color: "
+
+#: libgaminggear/gaminggear_macro_thread.c:132
+#, c-format
+msgid "Continuing macro %s/%s"
+msgstr "Continuing macro %s/%s"
+
+#: libgaminggearwidget/gaminggear_macro_tree_view.c:453
+msgid "Copy"
+msgstr "Copy"
+
+#: libgaminggear/gaminggear_audio_notificator_canberra.c:126
+#, c-format
+msgid "Could not cancel audio notificator: %s"
+msgstr "Could not cancel audio notificator: %s"
+
+#: libgaminggear/gaminggear_device.c:86 libgaminggear/gaminggear_device.c:175
+#, c-format
+msgid "Could not close file descriptor %1$i for device key %2$s: %3$s"
+msgstr "Could not close file descriptor %1$i for device key %2$s: %3$s"
+
+#: libgaminggear/gaminggear_device.c:80
+#, c-format
+msgid "Could not close file descriptor for device key %s: %s"
+msgstr "Could not close file descriptor for device key %s: %s"
+
+#: libgaminggear/gaminggear_audio_notificator_canberra.c:50
+#, c-format
+msgid "Could not create canberra context: %s"
+msgstr "Could not create canberra context: %s"
+
+#: libgaminggear/gaminggear_helper.c:80
+#, c-format
+msgid "Could not create directory: %s"
+msgstr "Could not create directory: %s"
+
+#: libgaminggear/gaminggear_macro_thread.c:179
+#, c-format
+msgid "Could not create macro thread: %s"
+msgstr "Could not create macro thread: %s"
+
+#: libgaminggear/gaminggear_input_events_uinput.c:89
+#, c-format
+msgid "Could not create uinput %i: %s"
+msgstr "Could not create uinput %i: %s"
+
+#: libgaminggear/gaminggear_audio_notificator_canberra.c:98
+#, c-format
+msgid "Could not destroy canberra context: %s"
+msgstr "Could not destroy canberra context: %s"
+
+#: libgaminggear/gaminggear_input_events_uinput.c:108
+#, c-format
+msgid "Could not destroy uinput %i: %s"
+msgstr "Could not destroy uinput %i: %s"
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:163
+msgid "Could not export macros"
+msgstr "Could not export macros"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:152
+#, c-format
+msgid "Could not find device %s"
+msgstr "Could not find device %s"
+
+#: libgaminggear/macros_converter_roccat_kone.c:189
+#: libgaminggear/macros_converter_roccat_arvo.c:104
+#: libgaminggear/macros_converter_roccat_valo.c:189
+#: libgaminggear/macros_converter_roccat.c:196
+#, c-format
+msgid "Could not find group %s: %s"
+msgstr "Could not find group %s: %s"
+
+#: libgaminggear/macros_converter_roccat_kone.c:194
+#: libgaminggear/macros_converter_roccat_arvo.c:109
+#: libgaminggear/macros_converter_roccat_valo.c:194
+#: libgaminggear/macros_converter_roccat.c:201
+#, c-format
+msgid "Could not find key %s/%s: %s"
+msgstr "Could not find key %s/%s: %s"
+
+#: libgaminggearwidget/gaminggear_macro_editor.c:201
+msgid "Could not find key for group 0 in keymap"
+msgstr "Could not find key for group 0 in keymap"
+
+#: libgaminggearwidget/gaminggear_macro_tree_store.c:213
+#, c-format
+msgid "Could not find macro %s/%s: %s"
+msgstr "Could not find macro %s/%s: %s"
+
+#: libgaminggearwidget/gaminggear_macro_tree_store.c:198
+#, c-format
+msgid "Could not find macroset %s: %s"
+msgstr "Could not find macroset %s: %s"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:75
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:120
+msgid "Could not get device description"
+msgstr "Could not get device description"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:66
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:113
+msgid "Could not get devices"
+msgstr "Could not get devices"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:107
+msgid "Could not get light color"
+msgstr "Could not get light color"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:93
+msgid "Could not get light description"
+msgstr "Could not get light description"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:100
+msgid "Could not get light position"
+msgstr "Could not get light position"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:84
+msgid "Could not get lights"
+msgstr "Could not get lights"
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:106
+msgid "Could not import macros"
+msgstr "Could not import macros"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:60
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:145
+msgid "Could not initialize fx system"
+msgstr "Could not initialize fx system"
+
+#: libgaminggear/gaminggear_screen_notificator_notify.c:36
+msgid "Could not initialize notify"
+msgstr "Could not initialize notify"
+
+#: libgaminggear/gaminggear_input_events_uinput.c:84
+#, c-format
+msgid "Could not initialize uinput %i: %s"
+msgstr "Could not initialize uinput %i: %s"
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:224
+msgid "Could not load macros"
+msgstr "Could not load macros"
+
+#: libgaminggear/macros_converter_roccat_swarm.c:180
+#: libgaminggear/macros_converter_roccat_swarm.c:250
+#, c-format
+msgid "Could not open %2$s macro file %1$s: %3$s"
+msgstr "Could not open %2$s macro file %1$s: %3$s"
+
+#: libgaminggear/gaminggear_audio_notificator_canberra.c:75
+#, c-format
+msgid "Could not open canberra context: %s"
+msgstr "Could not open canberra context: %s"
+
+#: libgaminggear/gaminggear_device.c:66
+#, c-format
+msgid "Could not open file %1$s for device key %2$s: %3$s"
+msgstr "Could not open file %1$s for device key %2$s: %3$s"
+
+#: libgaminggear/gaminggear_device.c:60
+#, c-format
+msgid "Could not open file for device key %s: %s"
+msgstr "Could not open file for device key %s: %s"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:268
+#, c-format
+msgid "Could not open uhid: %s"
+msgstr "Could not open uhid: %s"
+
+#: libgaminggear/gaminggear_input_events_uinput.c:42
+#, c-format
+msgid "Could not open uinput: %s"
+msgstr "Could not open uinput: %s"
+
+#: libgaminggear/macros_converter_roccat_swarm.c:75
+#, c-format
+msgid "Could not read: %s"
+msgstr "Could not read: %s"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:122
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:190
+msgid "Could not release fx system"
+msgstr "Could not release fx system"
+
+#: libgaminggearwidget/gaminggear_profile_table.c:388
+msgid "Could not remove profile"
+msgstr "Could not remove profile"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:173
+msgid "Could not reset all lights"
+msgstr "Could not reset all lights"
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog.c:74
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:289
+msgid "Could not save macros"
+msgstr "Could not save macros"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:166
+msgid "Could not set all lights to color1"
+msgstr "Could not set all lights to color1"
+
+#: libgaminggear/gaminggear_audio_notificator_canberra.c:57
+#, c-format
+msgid "Could not set driver %s for canberra context: %s"
+msgstr "Could not set driver %s for canberra context: %s"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:158
+#, c-format
+msgid "Could not set light %1$i on device %2$s to color1"
+msgstr "Could not set light %1$i on device %2$s to color1"
+
+#: libgaminggear/gaminggear_audio_notificator_canberra.c:69
+#, c-format
+msgid "Could not set properties for canberra context: %s"
+msgstr "Could not set properties for canberra context: %s"
+
+#: libgaminggear/gaminggear_input_events_uinput.c:53
+#, c-format
+msgid "Could not set uinput event bit %u: %s"
+msgstr "Could not set uinput event bit %u: %s"
+
+#: libgaminggear/gaminggear_input_events_uinput.c:49
+#: libgaminggear/gaminggear_input_events_uinput.c:55
+#: libgaminggear/gaminggear_input_events_uinput.c:57
+#: libgaminggear/gaminggear_input_events_uinput.c:59
+#: libgaminggear/gaminggear_input_events_uinput.c:61
+#: libgaminggear/gaminggear_input_events_uinput.c:63
+#: libgaminggear/gaminggear_input_events_uinput.c:65
+#: libgaminggear/gaminggear_input_events_uinput.c:67
+#: libgaminggear/gaminggear_input_events_uinput.c:71
+#, c-format
+msgid "Could not set uinput key bit %u: %s"
+msgstr "Could not set uinput key bit %u: %s"
+
+#: libgaminggear/gaminggear_audio_notificator_canberra.c:148
+#, c-format
+msgid "Could not update audio notificator: %s"
+msgstr "Could not update audio notificator: %s"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:181
+msgid "Could not update lights"
+msgstr "Could not update lights"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:257
+#, c-format
+msgid "Could not write event to uhid %i: %s"
+msgstr "Could not write event to uhid %i: %s"
+
+#: libgaminggear/gaminggear_input_events_uinput.c:132
+#, c-format
+msgid "Could not write key event %1$i/%2$i to uinput %3$i: %4$i"
+msgstr "Could not write key event %1$i/%2$i to uinput %3$i: %4$i"
+
+#: libgaminggear/gaminggear_input_events_uinput.c:150
+#, c-format
+msgid "Could not write sync event to uinput %i: %i"
+msgstr "Could not write sync event to uinput %i: %i"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:195
+#, c-format
+msgid "Could not write to uhid %i: %s"
+msgstr "Could not write to uhid %i: %s"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:198
+#, c-format
+msgid "Could not write to uhid %i: partial write (%zi instead of %zu)"
+msgstr "Could not write to uhid %i: partial write (%zi instead of %zu)"
+
+#: libgaminggear/macros_converter_roccat_swarm.c:96
+#, c-format
+msgid "Could not write: %s"
+msgstr "Could not write: %s"
+
+#: libgaminggearwidget/gaminggear_profile_table.c:634
+msgid "DP"
+msgstr "DP"
+
+#: libgaminggearwidget/gaminggear_macro_editor_record_options_frame.c:97
+msgid "Delay"
+msgstr "Delay"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:79
+#: gaminggearfxinfo/gaminggearfxinfo.c:96
+msgid "Description: "
+msgstr "Description: "
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:71
+msgid "Device"
+msgstr "Device"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:80
+msgid "Device type: "
+msgstr "Device type: "
+
+#: libgaminggearwidget/gaminggear_macro_tree_view.c:402
+msgid "Do you really want to remove this macro?"
+msgstr "Do you really want to remove this macro?"
+
+#: libgaminggearwidget/gaminggear_macro_tree_view.c:399
+msgid "Do you really want to remove this macroset?"
+msgstr "Do you really want to remove this macroset?"
+
+#: libgaminggearwidget/gaminggear_profile_table.c:380
+msgid "Do you really want to remove this profile?"
+msgstr "Do you really want to remove this profile?"
+
+#: libgaminggearwidget/gaminggear_dialogs.c:36
+msgid "Do you want to save?"
+msgstr "Do you want to save?"
+
+#: libgaminggearwidget/gaminggear_macro_editor_basic_tree_view.c:161
+msgid "Down"
+msgstr "Down"
+
+#: libgaminggearwidget/gaminggear_profile_table.c:465
+msgid "Duplicate"
+msgstr "Duplicate"
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog.c:112
+msgid "Edit macros"
+msgstr "Edit macros"
+
+#: libgaminggearwidget/gaminggear_profile_page.c:66
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:325
+msgid "Export"
+msgstr "Export"
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:130
+msgid "Export macros"
+msgstr "Export macros"
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:304
+msgid "File"
+msgstr "File"
+
+#: libgaminggear/gaminggear_macro_thread.c:155
+#, c-format
+msgid "Finished macro %s/%s"
+msgstr "Finished macro %s/%s"
+
+#: libgaminggearwidget/gaminggear_macro_editor_record_options_frame.c:105
+msgid "Fixed"
+msgstr "Fixed"
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:176
+msgid "Gaminggear macro editor"
+msgstr "Gaminggear macro editor"
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:199
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:263
+msgid "Gaminggear macros"
+msgstr "Gaminggear macros"
+
+#: libgaminggear/gaminggear_key_translations.c:123
+#, c-format
+msgid "HID usage id 0x%02x has no corresponding xkeycode"
+msgstr "HID usage id 0x%02x has no corresponding xkeycode"
+
+#: libgaminggearwidget/gaminggear_profile_table.c:630
+msgid "HW"
+msgstr "HW"
+
+#: libgaminggearwidget/gaminggear_profile_table.c:477
+msgid "Hardware index"
+msgstr "Hardware index"
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:333
+msgid "Help"
+msgstr "Help"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:38
+msgid "INDEX"
+msgstr "INDEX"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:36
+msgid "INVALID"
+msgstr "INVALID"
+
+#: libgaminggear/macros_converter_steelseries_engine3.c:97
+#, c-format
+msgid "Ignoring unknown event type %u"
+msgstr "Ignoring unknown event type %u"
+
+#: libgaminggear/macros_converter_steelseries_engine3.c:92
+msgid "Ignoring wait as first event type"
+msgstr "Ignoring wait as first event type"
+
+#: libgaminggearwidget/gaminggear_profile_page.c:62
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:321
+msgid "Import"
+msgstr "Import"
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:77
+msgid "Import macros"
+msgstr "Import macros"
+
+#: libgaminggearwidget/gaminggear_macro_editor_basic_tree_view.c:206
+msgid "Insert delay"
+msgstr "Insert delay"
+
+#: libgaminggearwidget/gaminggear_macro_editor_basic_tree_view.c:210
+msgid "Insert mouse event"
+msgstr "Insert mouse event"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:33
+msgid "KEYBOARD"
+msgstr "KEYBOARD"
+
+#: libgaminggearwidget/gaminggear_macro_editor_key_sequence_frame.c:191
+msgid "Key sequence"
+msgstr "Key sequence"
+
+#: libgaminggearwidget/gaminggear_macro_editor.c:254
+#, c-format
+msgid "Keyval 0x%04x has no corresponding keys in keymap"
+msgstr "Keyval 0x%04x has no corresponding keys in keymap"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:89
+msgid "Light"
+msgstr "Light"
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:190
+msgid "Load gaminggear macros"
+msgstr "Load gaminggear macros"
+
+#: libgaminggearwidget/gaminggear_macro_editor_macro_options_frame.c:78
+msgid "Loop"
+msgstr "Loop"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:30
+msgid "MOUSE"
+msgstr "MOUSE"
+
+#: libgaminggearwidget/gaminggear_macro_tree_view.c:499
+msgid "Macro"
+msgstr "Macro"
+
+#: libgaminggear/macros_converter_roccat_kone.c:99
+#: libgaminggear/macros_converter_roccat_arvo.c:189
+#: libgaminggear/macros_converter_roccat_valo.c:99
+#: libgaminggear/macros_converter_roccat.c:106
+#, c-format
+msgid "Macro %s/%s is too long to convert"
+msgstr "Macro %s/%s is too long to convert"
+
+#: libgaminggearwidget/gaminggear_macro_editor_macro_options_frame.c:51
+msgid "Macro options"
+msgstr "Macro options"
+
+#: libgaminggearwidget/gaminggear_macro_editor_macros_frame.c:53
+msgid "Macros"
+msgstr "Macros"
+
+#: libgaminggearwidget/gaminggear_macro_tree_view.c:310
+msgid "New macro"
+msgstr "New macro"
+
+#: libgaminggearwidget/gaminggear_macro_tree_view.c:88
+msgid "New macroset"
+msgstr "New macroset"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:94
+#, c-format
+msgid "Option parsing failed: %s"
+msgstr "Option parsing failed: %s"
+
+#: libgaminggearwidget/gaminggear_macro_editor_record_options_frame.c:101
+msgid "Paste"
+msgstr "Paste"
+
+#: libgaminggear/gaminggear_macro_thread.c:127
+#, c-format
+msgid "Pausing macro %s/%s"
+msgstr "Pausing macro %s/%s"
+
+#: libgaminggear/gaminggear_macro_thread.c:116
+#, c-format
+msgid "Playing macro %s/%s"
+msgstr "Playing macro %s/%s"
+
+#: libgaminggearwidget/gaminggear_macro_tree_view.c:310
+msgid "Please enter name of macro"
+msgstr "Please enter name of macro"
+
+#: libgaminggearwidget/gaminggear_macro_tree_view.c:88
+msgid "Please enter name of macroset"
+msgstr "Please enter name of macroset"
+
+#: gaminggearfxinfo/gaminggearfxinfo.c:103
+msgid "Position: "
+msgstr "Position: "
+
+#: libgaminggearwidget/gaminggear_profile_table.c:624
+msgid "Profile"
+msgstr "Profile"
+
+#: libgaminggearwidget/gaminggear_macro_editor_record_options_frame.c:99
+msgid "Record"
+msgstr "Record"
+
+#: libgaminggearwidget/gaminggear_macro_editor_record_options_frame.c:56
+msgid "Record options"
+msgstr "Record options"
+
+#: libgaminggearwidget/gaminggear_macro_tree_view.c:402
+msgid "Remove macro"
+msgstr "Remove macro"
+
+#: libgaminggearwidget/gaminggear_macro_tree_view.c:399
+msgid "Remove macroset"
+msgstr "Remove macroset"
+
+#: libgaminggearwidget/gaminggear_profile_table.c:380
+msgid "Remove profile"
+msgstr "Remove profile"
+
+#: libgaminggearwidget/gaminggear_macro_tree_view.c:438
+#: libgaminggearwidget/gaminggear_profile_table.c:461
+msgid "Rename"
+msgstr "Rename"
+
+#: libgaminggearwidget/gaminggear_profile_page.c:70
+msgid "Reset"
+msgstr "Reset"
+
+#: libgaminggear/macros_converter_roccat_arvo.c:301
+msgid "Roccat Arvo macro files"
+msgstr "Roccat Arvo macro files"
+
+#: libgaminggear/macros_converter_roccat_kone.c:303
+msgid "Roccat Kone macro files"
+msgstr "Roccat Kone macro files"
+
+#: libgaminggear/macros_converter_roccat_swarm.c:293
+msgid "Roccat Swarm macro files"
+msgstr "Roccat Swarm macro files"
+
+#: libgaminggear/macros_converter_roccat_valo.c:303
+msgid "Roccat Valo macro files"
+msgstr "Roccat Valo macro files"
+
+#: libgaminggear/macros_converter_roccat.c:311
+msgid "Roccat macro files"
+msgstr "Roccat macro files"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:37
+msgid "STRING"
+msgstr "STRING"
+
+#: libgaminggearwidget/gaminggear_macro_editor.c:423
+msgid "Save"
+msgstr "Save"
+
+#: libgaminggearwidget/gaminggear_macro_editor_dialog_menu_bar.c:254
+msgid "Save gaminggear macros as"
+msgstr "Save gaminggear macros as"
+
+#: libgaminggearwidget/gaminggear_macro_dialog.c:83
+msgid "Select macro"
+msgstr "Select macro"
+
+#: libgaminggear/macros_converter_steelseries_engine3.c:160
+#, c-format
+msgid "Sqlite3 could not evaluate statement: %s"
+msgstr "Sqlite3 could not evaluate statement: %s"
+
+#: libgaminggear/macros_converter_steelseries_engine3.c:153
+#, c-format
+msgid "Sqlite3 could not open database: %s"
+msgstr "Sqlite3 could not open database: %s"
+
+#: libgaminggear/macros_converter_steelseries_engine3.c:174
+msgid "SteelSeries Engine 3 database"
+msgstr "SteelSeries Engine 3 database"
+
+#: libgaminggearwidget/gaminggear_profile_page.c:158
+#: libgaminggearwidget/gaminggear_macro_editor.c:140
+msgid "Store modifications"
+msgstr "Store modifications"
+
+#: libgaminggearwidget/gaminggear_macro_editor_advanced_list_store.c:419
+#, c-format
+msgid "There is no corresponding press event for key %x"
+msgstr "There is no corresponding press event for key %x"
+
+#: libgaminggearwidget/gaminggear_dialogs.c:55
+msgid "There is unsaved data."
+msgstr "There is unsaved data."
+
+#: libgaminggearwidget/gaminggear_macro_editor_advanced_list_store.c:615
+#, c-format
+msgid "This macro contains a final wait of %u ms"
+msgstr "This macro contains a final wait of %u ms"
+
+#: libgaminggearwidget/gaminggear_profile_table.c:473
+msgid "Toggle desktop profile"
+msgstr "Toggle desktop profile"
+
+#: libgaminggear/macros_converter_roccat_swarm.c:72
+msgid "Trying to read behind file boundaries"
+msgstr "Trying to read behind file boundaries"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:271
+#, c-format
+msgid "Uhid %1$s has file descriptor %2$i"
+msgstr "Uhid %1$s has file descriptor %2$i"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:366
+#: libgaminggear/gaminggear_input_events_uhid.c:389
+#, c-format
+msgid "Uhid keyboard: Hid code %i had same state"
+msgstr "Uhid keyboard: Hid code %i had same state"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:409
+#: libgaminggear/gaminggear_input_events_uhid.c:441
+#, c-format
+msgid "Uhid keyboard: Hid code %i was not pressed before"
+msgstr "Uhid keyboard: Hid code %i was not pressed before"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:431
+#, c-format
+msgid "Uhid keyboard: Hid code %i was pressed too many times"
+msgstr "Uhid keyboard: Hid code %i was pressed too many times"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:396
+msgid "Uhid keyboard: No key to remove"
+msgstr "Uhid keyboard: No key to remove"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:373
+#, c-format
+msgid ""
+"Uhid keyboard: Too many keys pressed at the same time. Could not press %i"
+msgstr ""
+"Uhid keyboard: Too many keys pressed at the same time. Could not press %i"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:489
+#: libgaminggear/gaminggear_input_events_uhid.c:505
+#, c-format
+msgid "Uhid mouse: button %i had same state"
+msgstr "Uhid mouse: button %i had same state"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:477
+#, c-format
+msgid "Uhid mouse: button %i not supported"
+msgstr "Uhid mouse: button %i not supported"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:497
+#, c-format
+msgid "Uhid mouse: button %i was not pressed before"
+msgstr "Uhid mouse: button %i was not pressed before"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:483
+#, c-format
+msgid "Uhid mouse: button %i was pressed too many times"
+msgstr "Uhid mouse: button %i was pressed too many times"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:518
+#: libgaminggear/gaminggear_input_events_uhid.c:524
+#, c-format
+msgid "Uhid multimedia: already other event %i active"
+msgstr "Uhid multimedia: already other event %i active"
+
+#: libgaminggear/gaminggear_input_events_uhid.c:522
+msgid "Uhid multimedia: no event active"
+msgstr "Uhid multimedia: no event active"
+
+#: libgaminggear/gaminggear_input_events_uinput.c:45
+#, c-format
+msgid "Uinput %1$s has file descriptor %2$i"
+msgstr "Uinput %1$s has file descriptor %2$i"
+
+#: libgaminggear/gaminggear_input_events_uinput.c:122
+#: libgaminggear/gaminggear_input_events_uinput.c:140
+msgid "Uinput is not initialized"
+msgstr "Uinput is not initialized"
+
+#: libgaminggear/gaminggear_input_events_uinput.c:169
+#, c-format
+msgid "Uinput: Hid code %i was not pressed before"
+msgstr "Uinput: Hid code %i was not pressed before"
+
+#: libgaminggear/gaminggear_input_events_uinput.c:159
+#, c-format
+msgid "Uinput: Hid code %i was pressed too many times"
+msgstr "Uinput: Hid code %i was pressed too many times"
+
+#: libgaminggearwidget/gaminggear_macro_editor_basic_tree_view.c:166
+msgid "Up"
+msgstr "Up"
+
+#: libgaminggearwidget/gaminggear_macro_editor_basic_list_store.c:312
+msgid "Wait without corresponding key event"
+msgstr "Wait without corresponding key event"
+
+#: libgaminggearwidget/gaminggear_dialogs.c:25
+#: libgaminggearwidget/gaminggear_dialogs.c:63
+msgid "Warning"
+msgstr "Warning"
+
+#: libgaminggearwidget/gaminggear_profile_page.c:157
+#: libgaminggearwidget/gaminggear_macro_editor.c:139
+msgid "Would you like to store actual modifications?"
+msgstr "Would you like to store actual modifications?"
+
+#: libgaminggear/gaminggear_key_translations.c:115
+#, c-format
+msgid "Xkeycode 0x%04x has no corresponding HID usage id"
+msgstr "Xkeycode 0x%04x has no corresponding HID usage id"
+
+#: libgaminggearwidget/gaminggear_gdk_key_translations.c:33
+#, c-format
+msgid "Xkeycode 0x%04x has no corresponding keyval in keymap"
+msgstr "Xkeycode 0x%04x has no corresponding keyval in keymap"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:55
+msgid "give one of --all, --single or --reset"
+msgstr "give one of --all, --single or --reset"
+
+#: libgaminggear/gaminggear_device.c:80
+msgid "no entry"
+msgstr "no entry"
+
+#: libgaminggear/gaminggear_device.c:60
+msgid "no path"
+msgstr "no path"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:41
+msgid "reset colors"
+msgstr "reset colors"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:39
+msgid "set all colors"
+msgstr "set all colors"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:42
+msgid "set plain color"
+msgstr "set plain color"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:40
+msgid "set single color"
+msgstr "set single color"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:37
+msgid "use device STRING"
+msgstr "use device STRING"
+
+#: gaminggearfxcontrol/gaminggearfxcontrol.c:38
+msgid "use light index INDEX"
+msgstr "use light index INDEX"
+
+#~ msgid "Could not close file descriptor %i: %s"
+#~ msgstr "Could not close file descriptor %i: %s"

@@ -1,0 +1,89 @@
+* First make sure the dependencies are met
+
+  * You will need some development tools and header packages. For ease of use,
+    there are some install_deps_* scripts for various distributions in the scripts
+    folder of this package, which you can execute or take as a guideline.
+
+* Compilation and Installation
+
+  In any shell type the following:
+
+  $ tar -xjf libgaminggear-X.X.X.tar.bz2
+  $ cd libgaminggear-X.X.X
+  $ mkdir build
+  $ cd build
+  $ cmake -DCMAKE_INSTALL_PREFIX="/usr" ..
+  $ make
+  $ sudo make install
+
+  * optional cmake entries you can set with -D:
+
+    * CMAKE_BUILD_TYPE         If you want useful debug information in case of
+      errors use Debug. Default is Release.
+
+    * INSTALL_CMAKE_MODULESDIR If cmake doesn't find the right install directory
+      for cmake modules, you can set it manually. Normally it's /usr/share/cmake/Modules.
+
+    * INSTALL_LIBDIR           If cmake doesn't find the right install directory
+      for libraries, you can set it manually. For 64bit systems that's normally
+      $PREFIX/lib64 but Ubuntu uses $PREFIX/lib/x86_64-linux-gnu/.
+
+    * INSTALL_PKGCONFIGDIR     If cmake doesn't find the right install directory
+      for pkg-config, you can set it manually. Normally it's /usr/share/pkgconfig
+      or /usr/lib*/pkgconfig.
+
+    * WITH_UHID, WITH_UINPUT   Set either one to TRUE if you want to force one
+                               method. Per default uhid is preferred over uinput.
+
+    * UHID_DIR, UINPUT_DIR     If cmake doesn't find the right location of the
+      uhid or uinput device, you can set it manually. Normally it's in /dev or
+      /dev/input.
+      
+    * WITH_DOC                 Set this to TRUE if you want to build the API
+      documentation.
+
+    * GFX_PLUGIN_DIR
+
+  * It is strongly recommended to install everything in /usr instead of the default
+    directory /usr/local.
+
+* Finishing steps
+
+  * For input events to work for users (needed for software macros and such) they
+    need access rights for uinput or uhid. To use them as normal user you should
+    create an extra group like
+
+    $ sudo groupadd --system uinput-users
+
+    and add all needed users to this group.
+
+    $ sudo usermod -a -G uinput-users $USER
+	
+    Create a file like /etc/udev/rules.d/90-uinput.rules containing the lines
+
+    KERNEL=="uinput", GROUP="uinput-users", MODE="0660"
+    KERNEL=="uhid", GROUP="uinput-users", MODE="0660"
+
+	Also you need to make sure the modules are loaded automatically. For this
+    create a file /etc/modules-load.d/uinput.conf with either uinput or uhid as
+    it's content.
+
+	Unload/reload the module or reboot.
+
+  * Refresh the icon cache
+
+    Call the command
+
+    $ sudo touch --no-create /usr/share/icons/hicolor
+
+    where /usr has to be substituted with your install prefix.
+
+* Building an rpm
+
+  The package contains the file libgaminggear.spec that fits at least fedora which
+  you can use.
+  The easiest way is to write
+  
+  $ rpmbuild -ta --clean libgaminggear-X.X.X.tar.bz2
+  
+  which creates all rpms on the fly
