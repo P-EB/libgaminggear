@@ -1,0 +1,5 @@
+libgaminggear (0.15.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #773402)
+
+ -- Pierre-Elliott Bécue <becue@crans.org>  Thu, 16 Nov 2017 08:42:39 +0100

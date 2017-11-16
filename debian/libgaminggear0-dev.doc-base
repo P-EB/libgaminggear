@@ -1,0 +1,10 @@
+Document: libgaminggear
+Title: libgaminggear development documentation
+Author: Stefan Achatz
+Abstract: This manual describes how to use libgaminggear
+ as a developer.
+Section: System/Hardware
+
+Format: HTML
+Index: /usr/share/doc/libgaminggear0-dev/html/index.html
+Files: /usr/share/doc/libgaminggear0-dev/html/*
