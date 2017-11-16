@@ -47,8 +47,7 @@ Description: Functionalities for gaming input devices
  functionalities for gaming input devices such as keyboard and mouses.
 
 Package: libgaminggear0-common
-Architecture: any
-Multi-Arch: same
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Functionalities for gaming input devices, common files
  This package contains the libgaminggear library, which provides general
