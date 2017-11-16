@@ -4,8 +4,6 @@ set -e
 
 # Extracted from INSTALL file
 configue_libgaminggears (){
-    groupadd --system uinput-users
-    echo "Think about adding users to the group uinput-users with `usermod -a -G uinput-users [user]`"
     touch --no-create /usr/share/icons/hicolor
 }
 

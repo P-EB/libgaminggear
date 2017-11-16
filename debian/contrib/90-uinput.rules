@@ -1,2 +1,2 @@
-KERNEL=="uinput", GROUP="uinput-users", MODE="0660"
-KERNEL=="uhid", GROUP="uinput-users", MODE="0660"
+ACTION=="add|change", KERNEL=="uinput", TAG+="uaccess"
+ACTION=="add|change", KERNEL=="uhid", TAG+="uaccess"
