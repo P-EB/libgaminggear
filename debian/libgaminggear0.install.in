@@ -1,3 +1,1 @@
 usr/lib/@DEB_HOST_MULTIARCH@/lib*.so.*
-debian/contrib/90-uinput.rules lib/udev/rules.d
-debian/contrib/uinput.conf lib/modprobe.d
