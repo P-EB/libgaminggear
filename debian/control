@@ -49,6 +49,7 @@ Description: Functionalities for gaming input devices, common files
  gaminggear-utils.
 
 Package: gaminggear-utils
+Section: x11
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Utilities from libgaminggear
