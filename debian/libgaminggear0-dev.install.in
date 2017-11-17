@@ -1,4 +1,0 @@
-usr/include/*
-usr/lib/@DEB_HOST_MULTIARCH@/lib*.so
-usr/share/pkgconfig/* /usr/lib/@DEB_HOST_MULTIARCH@/pkgconfig/
-usr/share/doc/libgaminggear/html/*      usr/share/doc/libgaminggear0-dev/html/

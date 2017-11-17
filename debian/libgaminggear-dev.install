@@ -1,0 +1,5 @@
+#!/usr/bin/dh-exec --with-scripts=subst-multiarch
+usr/include/*
+usr/lib/*/lib*.so
+usr/share/pkgconfig/* /usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/
+usr/share/doc/libgaminggear/html/*      usr/share/doc/libgaminggear-dev/html/

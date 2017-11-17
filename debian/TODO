@@ -1,0 +1,11 @@
+Build-Dependends built using a minimal container and calling cmake until it's
+happy, and then make until it builds.  Doxygen is optional in practise, but
+as we also want to compile the documentation it's required. SQLITE3 is also
+optional, but searched by cmake, so we use it.
+
+Depends: list built by inspecting all headers files, and making sure no
+include of a .c file is done.
+
+When upgrading from upstream, check if anything changed in these.
+
+ -- Pierre-Elliott Bécue <becue@crans.org>  Fri, 17 Nov 2017 15:10:00+0100

@@ -1,28 +1,23 @@
-# Build-Dependends built using a minimal container and calling cmake until it's
-# happy, and then make until it builds.  Doxygen is optional in practise, but
-# as we also want to compile the documentation it's required. SQLITE3 is also
-# optional, but searched by cmake, so we use it.
 Source: libgaminggear
 Priority: optional
 Maintainer: Pierre-Elliott Bécue <becue@crans.org>
 Build-Depends: cmake (>= 2.6.4),
+               debhelper (>= 10),
+               dh-exec,
+               doxygen,
                libcanberra-dev,
-               pkg-config,
                libglib2.0-dev,
                libgtk2.0-dev (>= 2.20),
                libnotify-dev,
                libsqlite3-dev (>= 3.7),
-               doxygen,
-               debhelper (>= 10)
+               pkg-config
 Standards-Version: 4.1.1
 Section: libs
 Homepage: http://libgaminggear.sourceforge.net
-#Vcs-Browser: https://github.com/P-EB/libgaminggear
-#Vcs-Git: https://github.com/P-EB/libgaminggear.git -b master
+Vcs-Browser: https://github.com/P-EB/libgaminggear
+Vcs-Git: https://github.com/P-EB/libgaminggear.git -b master
 
-# Depends: list built by inspecting all headers files, and making sure no
-# include of a .c file is done.
-Package: libgaminggear0-dev
+Package: libgaminggear-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
@@ -32,33 +27,30 @@ Depends: libgaminggear0 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Functionalities for gaming input devices (devel)
- This package contains the libgaminggear library, which provides general
- functionalities for gaming input devices such as keyboard and mouses.
- .
- This package provides the headers files for the mentioned library.
+ This package provides the headers files and some doxygen-generated
+ documentation to develop software using libgaminggear library.
 
 Package: libgaminggear0
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${shlibs:Pre-Depends}
-Depends: libgaminggear-common, ${shlibs:Depends}, ${misc:Depends}
+Depends: libgaminggear-common, ${misc:Depends}, ${shlibs:Depends}
 Description: Functionalities for gaming input devices
  This package contains the libgaminggear library, which provides general
  functionalities for gaming input devices such as keyboard and mouses.
 
-Package: libgaminggear0-common
+Package: libgaminggear-common
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: foreign
+Depends: ${misc:Depends}
 Description: Functionalities for gaming input devices, common files
- This package contains the libgaminggear library, which provides general
- functionalities for gaming input devices such as keyboard and mouses.
- .
  This package contains the icons and other generic files that are not
- development files or libraries.
+ development files or libraries, useful for libgaminggear0 and
+ gaminggear-utils.
 
 Package: gaminggear-utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Utilities from libgaminggear
  Includes the following binaries:
  * gaminggearfxinfo
