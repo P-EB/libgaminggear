@@ -3,7 +3,7 @@
 set -e
 
 # Extracted from INSTALL file
-configue_libgaminggears (){
+configure_libgaminggears (){
     touch --no-create /usr/share/icons/hicolor
 }
 
