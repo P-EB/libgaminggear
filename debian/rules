@@ -8,7 +8,7 @@ DEB_CMAKE_NORMAL_ARGS =
 	dh $@
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DWITH_DOC=TRUE
+	dh_auto_configure -- -DWITH_DOC=TRUE
 
 override_dh_installchangelogs:
 	dh_installchangelogs Changelog
