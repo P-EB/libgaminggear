@@ -36,8 +36,12 @@ Multi-Arch: same
 Pre-Depends: ${shlibs:Pre-Depends}
 Depends: libgaminggear-common, ${misc:Depends}, ${shlibs:Depends}
 Description: Functionalities for gaming input devices
- This package contains the libgaminggear library, which provides general
- functionalities for gaming input devices such as keyboard and mouses.
+ Libgaminggear0 contains needed functionality for roccat-tools that are not
+ vendor specific and therefore might be useful for similar software. It
+ contains some GUI elements for unifying look and feel of such type of
+ software up to a complete macro editor with multi vendor import/export
+ functionality. It also contains software macro playback functionality and
+ audio/screen notifications.
 
 Package: libgaminggear-common
 Architecture: all
@@ -57,4 +61,5 @@ Description: Utilities from libgaminggear
  * gaminggearfxinfo
  * gaminggearfxcontrol
  .
- This package contains the runtime binaries.
+ This package contains the runtime binaries that allow to get and control some
+ visual effects of gaming devices, such as LEDS.
